@@ -12,4 +12,4 @@ mostrarFecha.innerHTML = `${diaSemana[fecha.getDay()]}, ${fecha.getDate()} de ${
 setInterval(()=>{
   let hora = new Date();
   mostrarReloj.innerHTML = hora.toLocaleTimeString();
-},1000);
+},1000);  
